@@ -177,6 +177,9 @@ class BlockManager:
             current_block = f'block_{block_number}.bin'
             current_block_path = os.path.join(self.block_dir, current_block)
 
+        if not os.path.exists(current_block_path):
+            open(current_block_path, 'wb').close()
+
         return current_block_path
 
     @staticmethod
