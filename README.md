@@ -11,11 +11,11 @@
 - **In-Memory Caching**: Frequently accessed image blocks are cached in memory for quick retrieval.
 - **Streaming Response**: Delivers images as streaming responses, ensuring faster and more efficient data transfer.
 
-## Installation
+<!--## Installation
 
 ```bash
 pip install fastblocksmanager
-```
+``` -->
 
 ## Usage with FastAPI
 
