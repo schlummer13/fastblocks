@@ -1,6 +1,6 @@
-# FastBlockManager for FastAPI
+# FastBlocks for FastAPI
 
-**FastBlockManager** is a Python library specifically designed to integrate seamlessly with FastAPI, allowing you to efficiently store, retrieve, and delete images in WebP format. This library utilizes block-based storage, compression, encryption, and in-memory caching to manage image data efficiently, providing modern streaming responses for optimal performance.
+**FastBlocks** is a Python library specifically designed to integrate seamlessly with FastAPI, allowing you to efficiently store, retrieve, and delete images in WebP format. This library utilizes block-based storage, compression, encryption, and in-memory caching to manage image data efficiently, providing modern streaming responses for optimal performance.
 
 ## Features
 
@@ -14,7 +14,7 @@
 ## Installation
 
 ```bash
-pip install fastblockmanager
+pip install fastblocks
 ```
 
 ## Usage with FastAPI
@@ -26,7 +26,7 @@ First, create an instance of the `BlockManager` class:
 ```python
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import StreamingResponse
-from fastblockmanager import BlockManager
+from fastblocks import BlockManager
 from io import BytesIO
 
 app = FastAPI()
