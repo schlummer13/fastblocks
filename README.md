@@ -26,7 +26,7 @@ First, create an instance of the `BlockManager` class:
 ```python
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import StreamingResponse
-from fastblocks import BlockManager
+from blocks import BlockManager
 from io import BytesIO
 
 app = FastAPI()
